@@ -1,0 +1,17 @@
+{
+  "name": "yuanqi-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tencent Yuanqi mini program backend on Vercel and Supabase",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npx vercel dev",
+    "deploy": "npx vercel --prod"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.107.0"
+  }
+}
